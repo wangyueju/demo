@@ -8,6 +8,7 @@
     <title>在线简历</title>
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./font/iconfont.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <style>
         body {
             background-color: #f2f2f2;
@@ -24,6 +25,10 @@
         .row {
             height: auto;
             margin: 20px 0;
+        }
+
+        .row>.c {
+            padding: 15px;
         }
 
         .content {
@@ -45,20 +50,36 @@
             font-size: 18px;
         }
 
-        .nav-title > .iconfont {
+        .nav-title>.iconfont {
             font-size: 25px;
             color: #1abc9c;
             padding: 2px;
         }
+
+        .iconfont-two {
+            font-size: 20px;
+            color: rgb(41, 212, 98);
+        }
+
+        .iconfont-three {
+            font-size: 20px;
+            color: rgb(255, 115, 0);
+        }
+
+        /* #title-marquee {
+            height: 24px;
+        } */
     </style>
 </head>
 
 <body>
     <div class="container">
 
+        <!-- <span id="title" class="d-none">1111111111111111111111</span>
         <div class="container margin-top shadow" style="border:1px solid #ccc">
-            <span>内容占位</span>
-        </div>
+            <div id="title-marquee"></div>
+        </div> -->
+
 
         <div class="row">
             <div class="col-lg-3 mr-auto content rounded padding text-center">
@@ -69,94 +90,94 @@
                 </div>
 
                 <div>
-                    <span class="text-left border-bottom d-block">
+                    <span class="text-left border-bottom d-block nav-title">
                         <span class="iconfont icon-icon-test3"></span>
                         基本信息
                     </span>
                     <div class="row">
-                        <div class="col-5">个人信息</div>
-                        <div class="col-7">王跃举/男/21岁</div>
+                        <div class="col-sm-5">个人信息</div>
+                        <div class="col-sm-7">王跃举/男/21岁</div>
 
-                        <div class="col-5">居住地址</div>
-                        <div class="col-7">广州白云</div>
+                        <div class="col-sm-5">居住地址</div>
+                        <div class="col-sm-7">广州白云</div>
 
-                        <div class="col-5">期望薪资</div>
-                        <div class="col-7">10k+</div>
+                        <div class="col-sm-5">期望薪资</div>
+                        <div class="col-sm-7">10k+</div>
                     </div>
                 </div>
 
                 <div>
-                    <span class="text-left border-bottom d-block">
+                    <span class="text-left border-bottom d-block nav-title">
                         <span class="iconfont icon-icon-test"></span>
                         联系方式
                     </span>
                     <div class="row">
-                        <div class="col-5">
-                            <span class="iconfont icon-icon-test1"></span>
+                        <div class="col-sm-5">
+                            <span class="iconfont icon-icon-test1 iconfont-two"></span>
                             手机
                         </div>
-                        <div class="col-7">
+                        <div class="col-sm-7">
                             <a href="javascript:;">151-9611-8927</a>
                         </div>
 
-                        <div class="col-4">
-                            <span class="iconfont icon-icon-test2"></span>
+                        <div class="col-sm-4">
+                            <span class="iconfont icon-icon-test2 iconfont-two"></span>
                             邮箱
                         </div>
-                        <div class="col-8">
+                        <div class="col-sm-8">
                             <a href="javascript:;">3186264616@qq.com</a>
                         </div>
 
-                        <div class="col-5">
-                            <span class="iconfont icon-icon-test4"></span>
+                        <div class="col-sm-5">
+                            <span class="iconfont icon-icon-test4 iconfont-two"></span>
                             Github
                         </div>
-                        <div class="col-7">
+                        <div class="col-sm-7">
                             <a href="https://github.com/wangyueju">个人主页</a>
                         </div>
                     </div>
                 </div>
 
                 <div>
-                    <span class="text-left border-bottom d-block">
+                    <span class="text-left border-bottom d-block nav-title">
                         <span class="iconfont icon-zhuanyezhishijineng"></span>
                         专业技能
                     </span>
                     <div class="row">
-                        <div class="col-5"><span class="iconfont icon-gerenjineng"></span>
+                        <div class="col-sm-5"><span class="iconfont icon-gerenjineng iconfont-three"></span>
                             HTML5
                         </div>
-                        <div class="col-7">
+                        <div class="col-sm-7">
                             <div class="progress">
                                 <div class="progress-bar progress-bar-striped progress-bar-animated"
                                     style="width: 85%;"></div>
                             </div>
                         </div>
 
-                        <div class="col-5"><span class="iconfont icon-gerenjineng"></span>
+                        <div class="col-sm-5"><span class="iconfont icon-gerenjineng iconfont-three"></span>
                             CSS3
                         </div>
-                        <div class="col-7">
+                        <div class="col-sm-7">
                             <div class="progress">
                                 <div class="bg-danger progress-bar progress-bar-striped progress-bar-animated"
                                     style="width: 85%;"></div>
                             </div>
                         </div>
 
-                        <div class="col-5"><span class="iconfont icon-jinengtisheng-01"></span>
+                        <div class="col-sm-5"><span class="iconfont icon-jinengtisheng-01 iconfont-three"></span>
                             JS
                         </div>
-                        <div class="col-7">
+                        <div class="col-sm-7">
                             <div class="progress">
                                 <div class="bg-info progress-bar progress-bar-striped progress-bar-animated"
                                     style="width: 80%;"></div>
                             </div>
                         </div>
 
-                        <div class="col-5"><span class="iconfont icon-instinct-"></span>
+                        <div class="col-sm-5"><span class="iconfont icon-instinct- iconfont-three"></span>
                             Vue
                         </div>
-                        <div class="col-7">
+                        <div class="col-sm-7">
                             <div class="progress">
                                 <div class="bg-warning progress-bar progress-bar-striped progress-bar-animated"
                                     style="width: 90%;"></div>
@@ -166,18 +187,18 @@
                 </div>
 
                 <div>
-                    <span class="text-left border-bottom d-block">
+                    <span class="text-left border-bottom d-block nav-title">
                         <span class="iconfont icon-zhuanyezhishijineng"></span>
                         精美图片
                     </span>
                     <div class="row">
-                        <div class="col-4">
+                        <div class="col-sm-4">
                             <img class="demo rounded" src="./image/o.jpg" alt="img">
                         </div>
-                        <div class="col-4">
+                        <div class="col-sm-4">
                             <img class="demo rounded" src="./image/i.jpg" alt="img">
                         </div>
-                        <div class="col-4">
+                        <div class="col-sm-4">
                             <img class="demo rounded" src="./image/r.jpg" alt="img">
                         </div>
                     </div>
@@ -193,15 +214,49 @@
                         项目经历
                     </span>
                     <div class="row">
-                        <div class="col-4">
-                            <img class="demo rounded" src="./image/o.jpg" alt="img">
-                        </div>
-                        <div class="col-4">
-                            <img class="demo rounded" src="./image/i.jpg" alt="img">
-                        </div>
-                        <div class="col-4">
-                            <img class="demo rounded" src="./image/r.jpg" alt="img">
-                        </div>
+                        <div class="c col-sm-5">项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍</div>
+                        <div class="c col-sm-7 text-right">2022-9-17</div>
+                        <div class="c col-sm-5">项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍</div>
+                        <div class="c col-sm-7 text-right">2022-9-17</div>
+                    </div>
+                </div>
+
+                <div>
+                    <span class="text-left border-bottom d-block margin-top nav-title">
+                        <span class="iconfont icon-zhuanyezhishijineng"></span>
+                        工作经历
+                    </span>
+                    <div class="row">
+                        <div class="c col-sm-5">项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍</div>
+                        <div class="c col-sm-7 text-right">2022-9-17</div>
+                        <div class="c col-sm-5">项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍</div>
+                        <div class="c col-sm-7 text-right">2022-9-17</div>
+                    </div>
+                </div>
+
+                <div>
+                    <span class="text-left border-bottom d-block margin-top nav-title">
+                        <span class="iconfont icon-zhuanyezhishijineng"></span>
+                        教育经历
+                    </span>
+                    <div class="row">
+                        <div class="c col-sm-5">项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍</div>
+                        <div class="c col-sm-7 text-right">2022-9-17</div>
+                        <div class="c col-sm-5">项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍</div>
+                        <div class="c col-sm-7 text-right">2022-9-17</div>
+                    </div>
+                </div>
+
+                <div>
+                    <span class="text-left border-bottom d-block margin-top nav-title">
+                        <span class="iconfont icon-zhuanyezhishijineng"></span>
+                        自我评价
+                    </span>
+                    <div class="row">
+                        <div class="c col-sm-5">项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍</div>
+                        <div class="c col-sm-7 text-right">2022-9-17</div>
+                        <div class="c col-sm-5">项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍</div>
+                        <div class="c col-sm-7 text-right">2022-9-17</div>
                     </div>
                 </div>
             </div>
@@ -210,6 +265,19 @@
 
     <script src="./js/jquery-3.6.0.min.js"></script>
     <script src="./js/bootstrap.min.js"></script>
+    <script>
+        $(function () {
+            // function typeWriting() {
+            //     let index = 0;
+            //     let word = document.getElementById("title").innerHTML;
+            //     function type() {
+            //         document.getElementById("title-marquee").innerText = word.substring(0,index++)
+            //     }
+            //     setInterval(type,100)
+            // }
+            // typeWriting()
+        })
+    </script>
 </body>
 
 </html>
