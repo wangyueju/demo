@@ -1,0 +1,72 @@
+{
+  "id": "3654201",
+  "name": "icon",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1721649",
+      "name": "技能-1",
+      "font_class": "instinct-",
+      "unicode": "e6c0",
+      "unicode_decimal": 59072
+    },
+    {
+      "icon_id": "3819716",
+      "name": "专业知识技能",
+      "font_class": "zhuanyezhishijineng",
+      "unicode": "e7b6",
+      "unicode_decimal": 59318
+    },
+    {
+      "icon_id": "8776706",
+      "name": "message_unread",
+      "font_class": "icon-test",
+      "unicode": "e636",
+      "unicode_decimal": 58934
+    },
+    {
+      "icon_id": "8776998",
+      "name": "phonecall",
+      "font_class": "icon-test1",
+      "unicode": "e643",
+      "unicode_decimal": 58947
+    },
+    {
+      "icon_id": "8777166",
+      "name": "email",
+      "font_class": "icon-test2",
+      "unicode": "e64b",
+      "unicode_decimal": 58955
+    },
+    {
+      "icon_id": "8777250",
+      "name": "user",
+      "font_class": "icon-test3",
+      "unicode": "e64d",
+      "unicode_decimal": 58957
+    },
+    {
+      "icon_id": "8777654",
+      "name": "social_github",
+      "font_class": "icon-test4",
+      "unicode": "e65e",
+      "unicode_decimal": 58974
+    },
+    {
+      "icon_id": "14690028",
+      "name": "个人技能",
+      "font_class": "gerenjineng",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    },
+    {
+      "icon_id": "21111343",
+      "name": "技能提升-01",
+      "font_class": "jinengtisheng-01",
+      "unicode": "e62c",
+      "unicode_decimal": 58924
+    }
+  ]
+}
